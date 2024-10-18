@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All the Best Mahi! 🎉💖</title>
+    <style>
+        body {
+            background-color: #FFFBF0;
+            font-family: 'Comic Sans MS', sans-serif;
+            text-align: center;
+            padding: 20px;
+            color: #333;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #FF6B81;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .quote {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-bottom: 40px;
+            color: #555;
+        }
+
+        .emoji {
+            font-size: 3em;
+            margin: 20px;
+        }
+
+        .wish-btn {
+            background-color: #FF6B81;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .wish-btn:hover {
+            background-color: #ff4081;
+        }
+
+        #wish-message {
+            font-size: 1.5em;
+            margin-top: 20px;
+            display: none;
+            color: #333;
+        }
+
+        /* Make the site responsive */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p, .quote {
+                font-size: 1.1em;
+            }
+
+            .emoji {
+                font-size: 2.5em;
+            }
+
+            .wish-btn {
+                padding: 10px 25px;
+                font-size: 1em;
+            }
+
+            #wish-message {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Good Luck, Mahi! 💖✨</h1>
+    <p>You’ve worked so hard, and today is your moment to shine! 🌟</p>
+
+    <div class="quote">
+        "Success is not the key to happiness. Happiness is the key to success. <br> If you love what you are doing, you will be successful." – Albert Schweitzer
+    </div>
+
+    <div class="emoji">📚💪🌸</div>
+
+    <button class="wish-btn" onclick="showWish()">Click for a Surprise Message! 💌</button>
+
+    <div id="wish-message">
+        Mahi, you've got this! Keep smiling, stay calm, and give it your best shot! 🌈✨<br> You are unstoppable! 🚀🌟
+    </div>
+
+    <script>
+        function showWish() {
+            const message = document.getElementById('wish-message');
+            message.style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
